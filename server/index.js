@@ -1,4 +1,5 @@
 //server/index.js
+//Author: Lin Zhang & Joanna Gonzalez
 const express = require("express");
 const users = require("../users.json");
 const app = express();
