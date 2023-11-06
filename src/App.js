@@ -10,13 +10,19 @@ fetch ( '/api/users')
  .then ( (data) => setUsers (data));
 },[]);
 
-  return (
+  return ( //Everything in this purple bracket is html, unless it is in curly braces--> Javascript embedded
     <div className="App">
-      <h1>Users</h1>
+      <h1>Movie - Rec</h1>
         {users.map((user) => (
-          <p key= {user.id} > {user.name}</p>
+          <p key= {user.id} > {user.name}</p> //Information embedded in curly braces is Javascript
         ))}
     </div>
   );
 }
 export default App;
+/*git status    
+gitstatus
+git add.
+git commit -m 'added author'
+git branch
+*/
