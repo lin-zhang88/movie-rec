@@ -1,4 +1,4 @@
-
+'author'; "carlos, diane"
 //sIc/ App. js
 import { useEffect, useState } from "react" ;
 import "./App.css" ;
@@ -6,7 +6,7 @@ function App() {
 const [users, setUsers] = useState ([]);
 useEffect (() => {
 fetch ( '/api/users')
- .then ( (res) => res. json ())
+ .then ( (res) => res.json ())
  .then ( (data) => setUsers (data));
 },[]);
 
