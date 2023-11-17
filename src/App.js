@@ -1,4 +1,3 @@
-
 //sIc/ App. js
 import { useEffect, useState } from "react" ;
 import "./App.css" ;
@@ -12,11 +11,12 @@ fetch ( '/api/users')
 
   return (
     <div className="App">
-      <h1>Users</h1>
+      <h1>Welcome to JDCL</h1>
         {users.map((user) => (
-          <p key= {user.id} > {user.name}</p>
+          <p>Click below to begin</p>
         ))}
     </div>
+   
   );
 }
 export default App;
