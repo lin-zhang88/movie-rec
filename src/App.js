@@ -5,8 +5,8 @@ function App() {
 const [users, setUsers] = useState ([]);
 useEffect (() => {
 fetch ( '/api/users')
- .then ( (res) => res. json ())
- .then ( (data) => setUsers (data));
+.then ( (res) => res.json ())
+.then ( (data) => setUsers (data));
 },[]);
 
   return (
@@ -16,6 +16,7 @@ fetch ( '/api/users')
           <p>Please click below to begin</p>
         ))}
          <a href="https://www.jdclrecommendations.com">Start here</a>
+
     </div>
    
   );
