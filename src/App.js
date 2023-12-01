@@ -13,10 +13,12 @@ fetch ( '/api/users')
     <div className="App">
       <h1>Welcome to JDCL</h1>
         {users.map((user) => (
-          <p>Click below to begin</p>
+          <p>Please click below to begin</p>
         ))}
+         <a href="https://www.jdclrecommendations.com">Start here</a>
     </div>
    
   );
+
 }
 export default App;
