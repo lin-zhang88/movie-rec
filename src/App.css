@@ -1,6 +1,32 @@
 .App {
   text-align: center;
+  color:rgb(206, 136, 15);
+  background-color: #0a0105;
+  margin-bottom: 50px;   
+  border-color:rgb(236, 246, 246);
 }
+.welcome{
+  font-style: italic;
+}
+
+h1 {
+font-size: 15px;
+text-align: left;
+vertical-align: top;
+
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(206, 136, 15);
+  border-color: rgb(65, 42, 165);
+}
+
+body {
+  background-color:#0a0105;
+  background-image: url(https://imgur.com/a/L7xBExd);
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -13,18 +39,18 @@
 }
 
 .App-header {
-  background-color: #0f4a34;
+  background-color: #25ae7c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(132, 21, 21);
+  color: rgb(26, 102, 109);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb61a9;
 }
 
 @keyframes App-logo-spin {

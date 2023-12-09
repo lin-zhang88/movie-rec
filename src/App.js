@@ -11,11 +11,18 @@ fetch ( '/api/users')
 
   return (
     <div className="App">
-      <h1>Welcome to JDCL</h1>
+      <h1>WElCOME TO JDCL</h1>
+      <h2>Searching for the perfect film?</h2>
+      <link rel="stylesheet" href="app.css"/>
         {users.map((user) => (
-          <p>Please click below to begin</p>
+          <p class= "welcome">Please click below to begin.</p>
         ))}
+  
          <a href="https://www.jdclrecommendations.com">Start here</a>
+         <hr/>
+         <img src= "https://imgur.com/a/L7xBExd" alt = "jdcl drawing"/>
+
+         
 
     </div>
    
