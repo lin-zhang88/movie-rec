@@ -1,7 +1,10 @@
-export default NavBar extends Component {
+const React = require('react');
+
+class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            activeTab: 'Home Page'
 			start_year: null,
             end_year: null,
 			genre: '',
@@ -12,8 +15,13 @@ export default NavBar extends Component {
             poster: '',
             page:'1'
 		}
-
     }
+    this.setNewTab = (newTab) => {
+        this.setState({
+            activeTab: newTab
+        });
+    }
+
 
     render(){
         const options = {
@@ -159,7 +167,7 @@ export default NavBar extends Component {
                 //result_id's purpose is to easy access the final result that can be utilitze in the frontend
                 //maybe change the reult_id into an array instead?
                 //may need quotes around the content in brackets
-                
+
             };
 
             //console.log(response.data);
@@ -167,8 +175,35 @@ export default NavBar extends Component {
             console.error(error);
         }
         
+    return(
+        <>
+            <nav className='Home Page'>
+                <h1>Home Page</h1>
+                <ul>
+                    {
+                        <>
+                            <button
+                                id='start'
+                                className='btn'
+                                style={{
+                                    backgroundColor: 'lightblue'
+                                }}
+                                onClick={() => {
+                                    this.setState({
+                                        activeTab: "Genre",
+                                    });
+                                }}
+                            >
+                                Get Started!
+                                
+                            </button>
+                        </>
+                    }
+                </ul>
+            </nav>
+        </>
+    )
 
-
-};
+}};
 
 
