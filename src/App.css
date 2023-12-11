@@ -1,29 +1,17 @@
 .App {
   text-align: center;
   color: rgb(206, 136, 15);
+  background-color: #0a0105;
   background-color: #100108;
   margin-bottom: 50px;
   border-color: rgb(236, 246, 246);
 }
 
-.welcome {
-  font-style: italic;
-}
 
-h1 {
-  font-size: 15px;
-  text-align: left;
-  vertical-align: top;
-
-}
-
-hr {
-  height: 2px;
-  background-color: rgb(206, 136, 15);
-  border-color: rgb(65, 42, 165);
-}
 
 body {
+  background-color: #0a0105;
+  background-image: url(https://imgur.com/a/L7xBExd);
   background-color: #15020a;
   background-size: cover;
   background-repeat: no-repeat;
