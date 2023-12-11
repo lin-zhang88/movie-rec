@@ -1,57 +1,121 @@
 .App {
+  background-color: #121212;
+  color: white;
   text-align: center;
-  color: rgb(206, 136, 15);
-  background-color: #0a0105;
-  background-color: #100108;
-  margin-bottom: 50px;
-  border-color: rgb(236, 246, 246);
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  height: 100vh
 }
 
-
-
-body {
-  background-color: #0a0105;
-  background-image: url(https://imgur.com/a/L7xBExd);
-  background-color: #15020a;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-image: url(https://i.imgur.com/xhXZ3xB.jpg);
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #121212;
 }
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  color: yellow;
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #25ae7c;
-  min-height: 100vh;
+.home-button {
+  background-color: yellow;
+  color: black;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(26, 102, 109);
+  height: 80vh;
 }
 
-.App-link {
-  color: #fb61a9;
+.home-title {
+  color: yellow;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.home-button:hover {
+  background-color: #ffeb3b;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.start-button {
+  background-color: yellow;
+  color: black;
+  padding: 1rem 2rem;
+  margin-top: 20px;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.question-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.question-title {
+  color: yellow;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.options-container {
+  margin-bottom: 2rem;
+}
+
+.option-button {
+  background-color: yellow;
+  color: black;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+}
+
+.nav-button {
+  background-color: white;
+  color: black;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
 }
