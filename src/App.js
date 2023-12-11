@@ -47,15 +47,12 @@ function App() {
       setIsHomePage(true);
       setCurrentMovieIndex(0);
       setMovies([]);
-      // Reset other states as needed
     };
     const renderMovieDetails = (movie) => {
       if (!movie) {
           return <p>No movie data available.</p>;
       }
-  
-      // Default values for image properties
-      const defaultImageUrl = 'default-image-url.jpg'; // Replace with a valid placeholder image URL
+      const defaultImageUrl = 'default-image-url.jpg';
       const imageSrc = movie.primaryImage?.url || defaultImageUrl;
       const imageAlt = movie.titleText?.text || 'No title';
       const imageWidth = movie.primaryImage?.width || 'auto';
@@ -91,12 +88,12 @@ function App() {
     };
     const handleDecadeSelect = (decade) => {
         setSelectedDecade(decade);
-        setCurrentStep(3); // Automatically move to the next step
+        setCurrentStep(3);
     };
 
     const handleRegionSelect = (region) => {
         setSelectedRegion(region);
-        setCurrentStep(4); // Automatically move to the next step
+        setCurrentStep(4);
     };
 
     const handleLengthSelect = (length) => {
