@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HomePage from './HomePage.js';
+import HomePage from './HomePage';
 import './App.css';
 
 function App() {
@@ -125,6 +125,7 @@ function App() {
         <>
           <header>
             <div className="logo">JDCL</div>
+            <img src={logo} className="App-logo" alt="logo" />
           </header>
           <HomePage onStart={startQuiz} />
         </>
