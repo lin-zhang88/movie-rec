@@ -1,12 +1,40 @@
 .App {
   text-align: center;
+  color:rgb(206, 136, 15);
+  background-color: #100108;
+  margin-bottom: 50px;   
+  border-color:rgb(236, 246, 246);
 }
+.welcome{
+  font-style: italic;
+}
+
+h1 {
+font-size: 15px;
+text-align: left;
+vertical-align: top;
+
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(206, 136, 15);
+  border-color: rgb(65, 42, 165);
+}
+
+body {
+  background-color:#15020a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url(https://i.imgur.com/xhXZ3xB.jpg);
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,18 +42,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #25ae7c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(26, 102, 109);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb61a9;
 }
 
 @keyframes App-logo-spin {
