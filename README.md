@@ -1,8 +1,8 @@
-🎬 Movie Recommendation System
+**🎬 Movie Recommendation System**
 
 A web application that delivers personalized movie recommendations by integrating with a third-party movie API. Built with JavaScript, HTML, and CSS, the app demonstrates seamless frontend–backend interaction, real-time API data handling, and user-friendly design.
 
-🚀 Features
+**🚀 Features**
 
 🔎 Search & Recommendations – Fetches real-time data from a third-party movie API
 
@@ -14,7 +14,7 @@ A web application that delivers personalized movie recommendations by integratin
 
 👤 User Experience Focused – Intuitive interface for browsing and discovering movies
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Languages: JavaScript, HTML, CSS
 
@@ -22,7 +22,7 @@ API: Third-party Movie API (e.g., TMDb or OMDb)
 
 Tools: Git/GitHub for version control, VS Code for development
 
-⚡ How It Works
+**⚡ How It Works**
 
 User searches or requests recommendations.
 
@@ -32,7 +32,7 @@ Backend logic parses and returns movie details.
 
 Frontend dynamically renders results in a clean interface.
 
-🎯 Skills Highlighted
+**🎯 Skills Highlighted**
 
 API Integration
 
