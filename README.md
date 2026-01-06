@@ -18,9 +18,33 @@ A web application that delivers personalized movie recommendations by integratin
 
 Languages: JavaScript, HTML, CSS
 
-API: Third-party Movie API (e.g., TMDb or OMDb)
+Frontend: React
+
+Backend: Node.js, Express
+
+API: TMDb (The Movie Database) API - Real-time movie data integration
 
 Tools: Git/GitHub for version control, VS Code for development
+
+**🔑 API Setup**
+
+This application integrates with the TMDb (The Movie Database) API to fetch real-time movie data.
+
+1. Get your free API key:
+   - Visit https://www.themoviedb.org/
+   - Sign up for a free account
+   - Go to Settings > API
+   - Request an API key (free tier available)
+
+2. Configure the API key:
+   - Create a `.env` file in the root directory
+   - Add: `TMDB_API_KEY=your_api_key_here`
+   - The app will automatically use the API when the key is configured
+   - Without an API key, the app falls back to local sample data
+
+3. Test API connection:
+   - Visit `http://localhost:3001/api/test-api` to verify API connectivity
+   - The frontend displays API status in the quiz interface
 
 **⚡ How It Works**
 
